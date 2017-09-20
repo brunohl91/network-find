@@ -1,0 +1,32 @@
+{
+  "name": "network-find",
+  "version": "0.0.1",
+  "description": "Module designed to search for devices in Network(s) that run specific services by PORT",
+  "main": "app.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunohl91/network-find.git"
+  },
+  "keywords": [
+    "network",
+    "find",
+    "port",
+    "broadcast",
+    "service",
+    "scanner"
+  ],
+  "author": "Bruno Leite",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brunohl91/network-find/issues"
+  },
+  "homepage": "https://github.com/brunohl91/network-find#readme",
+  "dependencies": {
+    "evilscan": "^1.0.3",
+    "get-eth": "^0.5.2",
+    "request": "^2.82.0"
+  }
+}
