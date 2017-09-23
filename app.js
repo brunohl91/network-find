@@ -82,6 +82,7 @@ var Scanner = function ( options ) {
           }
           Promise.all(promises)
             .then(function (res) {
+              console.log("Resolveu promise ", config);
               resolve( self.probabilities );
             })
             .catch(function (err) {
